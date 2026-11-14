@@ -1,0 +1,21 @@
+[project]
+name = "download"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "admdoservidor", email = "lucassimoes0516@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "faster-whisper>=1.2.1",
+    "openai-whisper>=20250625",
+    "yt-dlp>=2026.10.26",
+]
+
+[project.scripts]
+download = "download:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"

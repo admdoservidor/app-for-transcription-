@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv
+
+# Whisper model files (downloaded models)
+models/
+*.onnx
+*.tmfile
+
+# yt-dlp/cache files
+.cache
+.cookies
+
+# Temporary/operation files
+audio_temp.mp3
+tmp/
+temp/
+
+# Environment files (if any)
+.env
+.env.local
+
+# IDE/vscode
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+*.swp
